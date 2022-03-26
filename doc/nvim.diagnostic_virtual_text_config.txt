@@ -16,15 +16,16 @@ A Neovim plugin.
 CONTENTS
 
   1. Overview .............. |diagnostic_virtual_text_config_overview|
-  2. Installation .......... |diagnostic_virtual_text_config_installation|
-  3. Examples .............. |diagnostic_virtual_text_config_examples|
-    3.1. Top ............... |diagnostic_virtual_text_config_example_top|
-    3.1. Bottom ............ |diagnostic_virtual_text_config_example_bottom|
-    3.1. Hidden ............ |diagnostic_virtual_text_config_example_hidden|
+  2. Examples .............. |diagnostic_virtual_text_config_examples|
+    2.1. Top ............... |diagnostic_virtual_text_config_example_top|
+    2.1. Bottom ............ |diagnostic_virtual_text_config_example_bottom|
+    2.1. Hidden ............ |diagnostic_virtual_text_config_example_hidden|
+  3. Installation .......... |diagnostic_virtual_text_config_installation|
   4. Configuration ......... |diagnostic_virtual_text_config_configuration|
   5. Changelog ............. |diagnostic_virtual_text_config_changelog|
   6. Bugs .................. |diagnostic_virtual_text_config_bugs|
   7. Contributing .......... |diagnostic_virtual_text_config_contributing|
+  7. Acknowledgements ...... |diagnostic_virtual_text_config_acknowledgements|
   8. License ............... |diagnostic_virtual_text_config_license|
 
 
@@ -41,27 +42,6 @@ often impossible to read them all. Or when there's a very long diagnostic, it
 is often impossible to read it all the way.
 
 `nvim.diagnostic_virtual_text_config` seeks to solve this issue.
-
-
-==============================================================================
-                                   *diagnostic_virtual_text_config_installation*
-
-2. Installation
-
-Using `packer.nvim`:
->
-  use {
-    "Hrle97/nvim.diagnostic_virtual_text_config",
-    config = function()
-      require("nvim.diagnostic_virtual_text_config").setup {
-        -- your config here...
-      }
-    end,
-  }
-<
-`nvim.diagnostic_virtual_text_config` removes the default diagnostic virtual
-text by default, and replaces it with virtual text that sits on top of each
-diagnostic line.
 
 
 ==============================================================================
@@ -97,9 +77,30 @@ WIP
 
 
 ==============================================================================
+                                   *diagnostic_virtual_text_config_installation*
+
+3. Installation
+
+Using `packer.nvim`:
+>
+  use {
+    "Hrle97/nvim.diagnostic_virtual_text_config",
+    config = function()
+      require("nvim.diagnostic_virtual_text_config").setup {
+        -- your config here...
+      }
+    end,
+  }
+<
+`nvim.diagnostic_virtual_text_config` removes the default diagnostic virtual
+text by default, and replaces it with virtual text that sits on top of each
+diagnostic line.
+
+
+==============================================================================
                                   *diagnostic_virtual_text_config_configuration*
 
-3. Configuration
+4. Configuration
 
 WIP
 
@@ -107,7 +108,7 @@ WIP
 ==============================================================================
                                        *diagnostic_virtual_text_config_examples*
 
-4. Changelog
+5. Changelog
 
 26 Mar 2022                                                             v0.1.0
   Initial Release
@@ -116,7 +117,7 @@ WIP
 ==============================================================================
                                            *diagnostic_virtual_text_config_bugs*
 
-5. Bugs
+6. Bugs
 
 WIP
 
@@ -124,15 +125,27 @@ WIP
 ==============================================================================
                                    *diagnostic_virtual_text_config_contributing*
 
-6. Contributing
+7. Contributing
+
+Everyone that wants to contribute to this plugin has to follow the Contributor
+Covenant Code of Conduct v2.1.
 
 WIP
 
 
 ==============================================================================
+                               *diagnostic_virtual_text_config_acknowledgements*
+
+8. Acknowledgements
+
+This plugin is a fork of `https://git.sr.ht/~whynothugo/lsp_lines.nvim` by
+Hugo Osvaldo Barrera.
+
+
+==============================================================================
                                         *diagnostic_virtual_text_config_license*
 
-7. License
+9. License
 
 >
   MIT License

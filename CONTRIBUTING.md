@@ -1,0 +1,3 @@
+# Contributing to `nvim.diagnostic_virtual_text_config`
+
+**WIP**

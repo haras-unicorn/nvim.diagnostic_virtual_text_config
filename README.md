@@ -16,6 +16,22 @@ is often impossible to read it all the way.
 
 `nvim.diagnostic_virtual_text_config` seeks to solve this issue.
 
+## Examples
+
+**WIP**
+
+### Top
+
+**WIP**
+
+### Bottom
+
+**WIP**
+
+### Hidden
+
+**WIP**
+
 ## Installation
 
 Using `packer.nvim`:
@@ -45,8 +61,3 @@ require("nvim.diagnostic_virtual_text_config").setup {
   -- your config here...
 }
 ```
-
-## Attributions
-
-This plugin is a fork of `https://git.sr.ht/~whynothugo/lsp_lines.nvim` by 
-Hugo Osvaldo Barrera.
