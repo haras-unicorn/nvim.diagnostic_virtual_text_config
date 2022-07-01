@@ -86,7 +86,7 @@ M.setup = function(_setup)
     end,
     hide = function(namespace, bufnr)
       local ns = vim.diagnostic.get_namespace(namespace)
-      if ns.user_data.virt_lines_ns then
+      if ns.user_data.virt_lines_ns and vim.api.nvim_get_mode().mode ~= "i" then
         vim.api.nvim_buf_clear_namespace(
           bufnr,
           ns.user_data.virt_lines_ns,
