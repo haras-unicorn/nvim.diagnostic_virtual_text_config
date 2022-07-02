@@ -1,6 +1,6 @@
 # `nvim.diagnostic_virtual_text_config`
 
-![Showcase](assets/screenshot.png)
+![Showcase](assets/showcase.png)
 
 `nvim.diagnostic_virtual_text_config` is a `Neovim` plugin that lets you
 configure the position, style, and display of diagnostic virtual text.
